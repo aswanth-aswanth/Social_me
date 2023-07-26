@@ -5,6 +5,7 @@ import Stories from '../components/Stories';
 import Newpost from '../components/Newpost';
 import Post from '../components/Post';
 import Leftnav from '../components/Leftnav';
+import Yourfriends from '../components/Yourfriends';
 function Homepage() {
     return (
         <div className={`${styles.grid_parent} `}>
@@ -17,7 +18,7 @@ function Homepage() {
                     <div className={`${styles.grid_parent3_child} grid_parent3_child1 relative`}><Leftnav/></div>
                     <div className={`${styles.grid_parent3_child} grid_parent3_child2`}><Newpost/>
                     <Post/></div>
-                    <div className={`${styles.grid_parent3_child} grid_parent3_child3`}></div>
+                    <div className={`${styles.grid_parent3_child} grid_parent3_child3`}><Yourfriends/></div>
                 </div>
                 <div className={`${styles.grid_child} ${styles.grid_child3}`}></div>
             </div>
