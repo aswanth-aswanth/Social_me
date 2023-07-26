@@ -20,7 +20,7 @@
 }
 .grid_child3 {
   grid-area: 1/2 / span 2/3;
-  @apply border-4 border-teal-950;
+  /* @apply border-4 border-teal-950; */
 }
 .grid_parent3 {
   display: grid;
@@ -28,7 +28,7 @@
 }
 .grid_parent3_child {
 
-  @apply border-4 border-orange-400;
+  /* @apply border-4 border-orange-400; */
 }
 .icon{
   font-size: 5rem;
@@ -41,8 +41,8 @@
 }
 .story_container::-webkit-scrollbar-thumb {
   
-  @apply rounded-full bg-gray-300;
+  @apply rounded-full bg-gray-200;
 }
 .story_container::-webkit-scrollbar-thumb:hover {
-  @apply bg-sky-200 ;
+  @apply bg-gray-300 ;
 }
