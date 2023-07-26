@@ -2,9 +2,9 @@
   display: grid;
   grid-template-rows: 100px auto;
 }
-.grid_child {
-  @apply border-2;
-}
+/* .grid_child { */
+  /* @apply border-2; */
+/* }  */
 .grid_parent2 {
   display: grid;
   grid-template-rows: 310px minmax(400px, auto);
@@ -29,4 +29,7 @@
 }
 .grid_parent3_child {
   @apply border-4 border-orange-400;
+}
+.icon{
+  font-size: 5rem;
 }

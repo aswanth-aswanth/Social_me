@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from '../styles/homepage.module.css';
+import Header from '../components/Header';
 function Homepage() {
     return (
         <div className={`${styles.grid_parent} `}>
-            <div className={`${styles.grid_child}`}></div>
+            <div className={`${styles.grid_child}`}>
+                <Header/>
+            </div>
             <div className={`${styles.grid_child} ${styles.grid_parent2} grid_parent2`}>
                 <div className={`${styles.grid_child} ${styles.grid_child1}`}></div>
                 <div className={`${styles.grid_child} ${styles.grid_child2} ${styles.grid_parent3}`}>
