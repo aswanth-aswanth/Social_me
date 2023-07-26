@@ -19,6 +19,8 @@ function Homepage() {
                 <div className={`${styles.grid_child} ${styles.grid_child2} ${styles.grid_parent3} mt-[50px]`}>
                     <div className={`${styles.grid_parent3_child} grid_parent3_child1 relative`}><Leftnav/></div>
                     <div className={`${styles.grid_parent3_child} grid_parent3_child2`}><Newpost/>
+                    <h4 className="text-xl mb-4 mt-4">Posts</h4>
+                    <Post/>
                     <Post/>
                     </div>
                     <div className={`${styles.grid_parent3_child} grid_parent3_child3`}><Yourfriends/> <Suggestedfriends/> </div>

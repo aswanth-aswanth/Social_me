@@ -10,6 +10,11 @@
   grid-template-rows: 310px minmax(400px, auto);
   grid-template-columns: 7fr 2fr;
 }
+.grid_parent2_profilepage {
+  display: grid;
+  grid-template-rows: 390px minmax(400px, auto);
+  grid-template-columns: 7fr 2fr;
+}
 
 .grid_child1 {
   grid-area: 1/1/2/2;
@@ -21,6 +26,9 @@
 .grid_child3 {
   grid-area: 1/2 / span 2/3;
   /* @apply border-4 border-teal-950; */
+}
+.grid_child1_profilepage{
+  /* grid-area:1/2/2/3; */
 }
 .grid_parent3 {
   display: grid;

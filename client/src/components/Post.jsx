@@ -2,8 +2,7 @@ import React from "react";
 
 function Post() {
   return (
-    <div>
-      <h4 className="text-xl mb-4 mt-4">Posts</h4>
+    <div className=" my-8">
       <div className="bg-white min-h-[200px] mx-3 p-6 rounded-2xl">
         <dir className="flex  items-start pl-0 my-0">
           <div className="circle rounded-full  border w-[60px] h-[60px]"></div>
